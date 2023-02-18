@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+input[type=text],input[type=number],input[type=date],input[type=email] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+   
+  }
+#country,#state{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #037f7b;
+    border-radius: 3px;
+    color: white;
+    padding: 6px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  form{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ecedec;
+    font-weight: bold;
+    color: rgb(34, 34, 101);
+  }
